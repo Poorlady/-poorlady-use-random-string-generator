@@ -13,15 +13,30 @@ npm install --save @poorlady/use-random-string-generator
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from '@poorlady/use-random-string-generator'
+import { UseRandomString } from '@poorlady/use-random-string-generator'
 import '@poorlady/use-random-string-generator/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
+const App = () => {
+  const { text, isLoading } = UseRandomString()
+
+  if (isLoading) {
+    return (
+      <div>
+        <h1>Loading...</h1>
+      </div>
+    )
   }
+  if (text) {
+    return (
+      <div>
+        <h1>Text Generated:</h1>
+        <p>{text}</p>
+      </div>
+    )
+  }
+  return null
 }
 ```
 
