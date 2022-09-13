@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save @poorlady/use-random-string-generator
+npm install --save @saniekasmara/use-random-string-generator
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save @poorlady/use-random-string-generator
 ```jsx
 import React from 'react'
 
-import { UseRandomString } from '@poorlady/use-random-string-generator'
-import '@poorlady/use-random-string-generator/dist/index.css'
+import { UseRandomString } from '@saniekasmara/use-random-string-generator'
+import '@saniekasmara/use-random-string-generator/dist/index.css'
 
 const App = () => {
   const { text, isLoading } = UseRandomString()
@@ -42,4 +42,4 @@ const App = () => {
 
 ## License
 
-MIT © [Poorlady](https://github.com/Poorlady)
+MIT © [saniekasmara](https://github.com/Poorlady)
