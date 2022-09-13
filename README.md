@@ -1,8 +1,8 @@
-# @poorlady/use-random-string-generator
+# @saniekasmara/use-random-string-generator
 
 > A module that provide you with random string provided
 
-[![NPM](https://img.shields.io/npm/v/@poorlady/use-random-string-generator.svg)](https://www.npmjs.com/package/@poorlady/use-random-string-generator) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@saniekasmara/use-random-string-generator.svg)](https://www.npmjs.com/package/@saniekasmara/use-random-string-generator) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
